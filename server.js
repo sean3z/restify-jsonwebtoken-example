@@ -10,7 +10,7 @@ const app = restify.createServer();
 app.use(restify.plugins.queryParser());  
 app.use(restify.plugins.bodyParser());
 app.use(rjwt(config.jwt).unless({
-    path: ['/ping', '/auth']
+    path: ['/auth']
 }));
 
 app.get('/user', (req, res, next) => {
