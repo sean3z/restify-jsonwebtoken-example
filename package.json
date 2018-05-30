@@ -1,0 +1,21 @@
+{
+  "name": "restify-jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "jsonwebtoken": "~8.2.1",
+    "restify": "~7.2.0",
+    "restify-jwt-community": "~1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sean Wragg <seanwragg@gmail.com>",
+  "license": "MIT"
+}
